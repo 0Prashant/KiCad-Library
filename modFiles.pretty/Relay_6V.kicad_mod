@@ -1,4 +1,4 @@
-(module modFiles:Relay_6V (layer F.Cu) (tedit 5A62C01F)
+(module Relay_6V (layer F.Cu) (tedit 5A62C01F)
   (descr "relay Sanyou SRD series Form C")
   (fp_text reference Rly1 (at 8.1 9.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
