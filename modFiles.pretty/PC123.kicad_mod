@@ -1,4 +1,4 @@
-(module Housings_DIP:DIP-4_W7.62mm (layer F.Cu) (tedit 586281B4)
+(module PC123 (layer F.Cu) (tedit 586281B4)
   (descr "4-lead dip package, row spacing 7.62 mm (300 mils)")
   (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil")
   (fp_text reference U4 (at 3.81 -2.39) (layer F.SilkS)
@@ -26,7 +26,7 @@
   (pad 3 thru_hole oval (at 7.62 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model Housings_DIP.3dshapes/DIP-4_W7.62mm.wrl
+  (model _3D/Used/DIP-4_W7.62mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

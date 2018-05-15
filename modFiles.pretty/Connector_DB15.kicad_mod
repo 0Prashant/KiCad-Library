@@ -47,14 +47,14 @@
   (pad 13 thru_hole oval (at 12.4 -2.54) (size 2 2.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 14 thru_hole oval (at 15.19 -2.54) (size 2 2.2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 15 thru_hole oval (at 17.93 -2.54) (size 2 2.2) (drill 0.8) (layers *.Cu *.Mask))
-  (model Connectors.3dshapes/DB15FC.wrl
-    (at (xyz 0.6 0.05 0))
-    (scale (xyz 0 0 0))
-    (rotate (xyz 0 0 0))
-  )
-  (model ../../../../../home/ant/Documents/kicad/workspace/KiCad-Library/_3D/NO_IP_3Ds/conn/db_15f.wrl
+  (model _3D/Used/db_15f.wrl
     (at (xyz 0.38 0.34 0))
     (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+  (model _3D/Used/DB15FC.wrl
+    (at (xyz 0.38 0.34 0))
+    (scale (xyz 0 0 0))
     (rotate (xyz 0 0 180))
   )
 )

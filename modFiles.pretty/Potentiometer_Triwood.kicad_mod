@@ -1,4 +1,4 @@
-(module Potentiometer_Triwood_RM-065 (layer F.Cu) (tedit 5ADE1225)
+(module Potentiometer_Triwood (layer F.Cu) (tedit 5ADE1225)
   (descr "Potentiometer, Trimmer, RM-065")
   (tags "Potentiometer Trimmer RM-065")
   (fp_text reference REF** (at -2.1 -2.5 90) (layer F.SilkS)
@@ -74,8 +74,8 @@
   (pad 2 thru_hole circle (at 2.5 -5.04) (size 3 3) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Cu *.Mask))
-  (model Potentiometers.3dshapes/Potentiometer_Triwood_RM-065.wrl
-    (at (xyz 0 0 0))
+  (model _3D/Used/Potentiometer_Triwood_RM-065.wrl
+    (at (xyz 0 0 -0.05))
     (scale (xyz 4 4 4))
     (rotate (xyz 0 0 0))
   )
