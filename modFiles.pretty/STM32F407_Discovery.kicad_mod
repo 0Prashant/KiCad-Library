@@ -1,5 +1,5 @@
-(module STM32F407_Discovery (layer F.Cu) (tedit 5BC802F3)
-  (fp_text reference REF** (at 4.572 -49.53) (layer F.SilkS) hide
+(module STM32F407_Discovery (layer F.Cu) (tedit 5BCFE0C7)
+  (fp_text reference U1 (at 4.572 -49.53) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value STM32F407_Discovery (at 24.0665 -49.784) (layer F.SilkS)
@@ -402,10 +402,10 @@
   (pad 54 thru_hole circle (at 26.6065 -12.192) (size 2.05 2.05) (drill 0.762) (layers *.Cu *.Mask))
   (pad 52 thru_hole circle (at 26.6065 -14.732) (size 2.05 2.05) (drill 0.762) (layers *.Cu *.Mask))
   (pad 51 thru_hole circle (at 24.0665 -14.732) (size 2.05 2.05) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 0 thru_hole oval (at 26.67 -45.1485) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 0 thru_hole oval (at 26.67 -42.799) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 0 thru_hole oval (at -26.67 -42.545) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
-  (pad 0 thru_hole oval (at -26.67 -45.085) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
+  (pad c thru_hole oval (at 26.67 -45.1485) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
+  (pad d thru_hole oval (at 26.67 -42.799) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
+  (pad b thru_hole oval (at -26.67 -42.545) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
+  (pad a thru_hole oval (at -26.67 -45.085) (size 3 2.05) (drill 0.762) (layers *.Cu *.Mask))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
     (at (xyz -1.05 1.78 0))
     (scale (xyz 1 1 1))
